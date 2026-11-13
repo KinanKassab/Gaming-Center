@@ -1,0 +1,33 @@
+# Dependencies and build
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/coverage/
+**/*.tsbuildinfo
+
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Test / local database artifacts
+**/.pglite/
+**/pglite-data/
+**/.tmp-npm-cache/
+**/.tmp-npm-cache/
+
+# DOCX unzip working copy (source is the .docx)
+Code/docs/architecture/_docx_extract/
+.codex
+.claude
+.agents
+.playwright-mcp
+Code/.tmp-browser-fixture.json
+Code/.tmp-browser-artifacts/
